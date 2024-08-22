@@ -1,0 +1,194 @@
+
+body{margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+   
+  .topnav {
+  overflow: hidden;  background-color: #eaecee;
+  margin-left: 4.3rem;  margin-top: -4.6rem; 
+  }
+    
+  .topnav a {
+  float: left; color: #080808;  text-align: center;
+  padding: 14px 16px;  text-decoration: none;  font-size: 17px;
+  }
+  
+  .topnav a:hover {
+  background-color: #0a3cee; color: rgb(253, 251, 251);
+  }
+  
+  .topnav a.active {
+  background-color: #04AA6D; color: white;
+  }
+  
+  
+  .topnav .search-container {
+      float: right;   
+    }
+  
+    .topnav input[type=text] {
+      padding: 6px;
+      margin-top: 8px;  font-size: 17px;  border: none;
+    }
+  
+    .topnav .search-container button {
+      float: right;  padding: 6px 10px;
+      margin-top: 8px;  margin-right: 16px;  background: #ddd;
+      font-size: 17px;  border: none;  cursor: pointer;
+    }
+  
+    .topnav .search-container button:hover {
+      background: #ccc;
+    }
+  
+    .heading {
+      margin-top: -1px;  padding-top: 21px;  padding-left: 4px;
+    }
+  .banner-paragraph {
+    margin-top: -15px;padding-left: 4px;
+  }
+  
+  
+
+
+.header {
+    margin-left: 0rem ;  height: 100vh;
+    background-size: cover;   margin-top: 0%;   margin-right: 0%;
+    background-image: url(../img/review.jpg); height: 100%;
+}
+
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2{
+ font-family: 'Times New Roman', Times, serif ; 
+}
+
+.column {
+  float: right;  width: 25%;  margin-bottom: 16px; padding: 0 9px; 
+}
+
+.card {
+  box-shadow: 0 14px 30px 0 rgba(0, 0, 0, 0.2);
+  margin: 5px;  background-color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";  clear: both;  display: table;
+}
+
+.title {
+  color: grey;  transition: .5s;  font-weight: 700;
+}
+
+.title:hover{
+  rotate: -8deg;
+}
+
+.gmail {
+  font-size: .9rem;  padding-right: 2px;  
+}
+
+.pic {
+  object-fit: cover; 
+}
+
+.pic:hover{
+ box-shadow: 10px 10px 20px grey;
+}
+
+
+
+
+.footer-basic {
+  padding:40px 0;
+  background: linear-gradient(to top, rgb(6, 85, 242),rgb(24, 200, 240));  
+}
+
+.list-inline{
+  text-align:center;
+}
+
+.list-inline-item{
+  font-size:24px; width:40px; height:40px;
+  line-height:40px; display: inline;  text-align:center;  
+}
+
+.footer-basic ul {
+  padding:0;  list-style:none;  text-align:center;
+  font-size:18px;  line-height:1.6;  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+
+}
+
+.footer-basic ul a {
+  color:inherit;  text-decoration:none;  opacity:0.8;
+}  
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;  padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;  width:40px;
+  height:40px;  line-height:40px;
+  display:inline-block;  text-align:center;
+  border-radius:50%;  border:1px solid #ccc;
+  margin:0 8px;  color:inherit;  opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;  text-align:center;
+  font-size:13px;  color:#312f2f;  margin-bottom:0;
+}
+
+
+
+
+@media screen and (max-width: 850px) {
+  .column {
+    width: 50%;
+    display: block;
+  }   
+}
+
+@media screen and (max-width: 1200px) {
+  .gmail{
+    font-size: .7rem;
+  }
+}
+@media screen and (max-width:600px) {
+  .gmail{
+    font-size: .6rem;
+   
+  }
+  .describe {
+    font-size: .9rem;
+    
+  }
+}
